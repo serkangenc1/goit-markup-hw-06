@@ -833,6 +833,10 @@ footer {
   display: none;
 }
 
+.header-menu {
+    display: none;
+}
+
 .navbar{
   display: flex;
 }
