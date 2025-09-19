@@ -166,6 +166,7 @@ opacity: 1;
 }
 
 .mobile-menu-content .adresler{
+  display: flex;
   padding-top: 168px;
 }
 
@@ -1295,10 +1296,10 @@ footer {
 
 
 @media (min-resolution: 2dppx) {
-  .hero-section {
+  .hero-section{
     background-image:
-      linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("images/dark-bg@2x.jpg");
+      linear-gradient(rgba(46,47,66,0.7), rgba(46,47,66,0.7)),
+      url("../images/Dark-bg@2x.jpg");
   }
 }
 
@@ -1307,7 +1308,7 @@ footer {
   .hero-section {
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url("images/dark-bg@3x.jpg");
+      url("../images/Dark-bg@3x.jpg");
   }
 }
 
